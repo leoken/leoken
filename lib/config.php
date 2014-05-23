@@ -8,8 +8,8 @@ add_theme_support('bootstrap-gallery');     // Enable Bootstrap's thumbnails com
 add_theme_support('nice-search');           // Enable /?s= to /search/ redirect
 add_theme_support('jquery-cdn');            // Enable to load jQuery from the Google CDN
 add_theme_support('sequence');              // Enable Sequance.js
-add_theme_support('sizzle');                // Enable Sizzle.js
-add_theme_support('stellar');                // Enable Stellar.js
+//add_theme_support('sizzle');                // Enable Sizzle.js
+//add_theme_support('stellar');               // Enable Stellar.js
 
 /**
  * Configuration values

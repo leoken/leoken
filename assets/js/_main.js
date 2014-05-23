@@ -22,11 +22,12 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      
       var options = {
             autoPlay: true,
-            autoPlayDelay: 3000
-        }
+            cycle: true,
+            animateStartingFrameIn: false,
+            autoPlayDelay: 4000
+        };
         var sequence = $("#sequence").sequence(options).data("sequence");
     }
   },

@@ -17,6 +17,16 @@
     }
   ?>
 
+  <?php if (is_singular(array('post','page'))) { ?>
+    <div id="sequence-container" class="container-fluid">
+      <div class="row">
+        <div class="">
+          <?php get_template_part('templates/content', 'attachment-sequence');?>
+        </div>
+      </div>
+    </div>
+  <?php } ?>
+
   <div class="wrap container" role="document">
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
