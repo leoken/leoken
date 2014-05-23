@@ -22,7 +22,12 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      // JavaScript to be fired on all pages
+      
+      var options = {
+            autoPlay: true,
+            autoPlayDelay: 3000
+        }
+        var sequence = $("#sequence").sequence(options).data("sequence");
     }
   },
   // Home page
