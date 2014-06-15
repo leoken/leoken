@@ -23,12 +23,20 @@ var Roots = {
   common: {
     init: function() {
       var options = {
-            autoPlay: true,
-            cycle: true,
-            animateStartingFrameIn: false,
-            autoPlayDelay: 4000
-        };
-        var sequence = $("#sequence").sequence(options).data("sequence");
+        autoPlay: true,
+        cycle: true,
+        animateStartingFrameIn: false,
+        autoPlayDelay: 4000
+      };
+      var sequence = $("#sequence").sequence(options).data("sequence");
+
+      $('.page-header').affix({
+        offset: {
+          top: 60,
+          bottom: 300
+        }
+      });
+
     }
   },
   // Home page
