@@ -13,7 +13,7 @@ function roots_setup() {
 
   // Add post thumbnails (http://codex.wordpress.org/Post_Thumbnails)
   add_theme_support('post-thumbnails');
-  // set_post_thumbnail_size(150, 150, false);
+  set_post_thumbnail_size(320, 320, true);
   add_image_size('header-image', 9999, 300);
 
   // Add post formats (http://codex.wordpress.org/Post_Formats)

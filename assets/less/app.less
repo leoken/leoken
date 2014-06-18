@@ -39,15 +39,35 @@ body.singular {
    Content
    ========================================================================== */
 
-.content { }
-
-
+.content {
+   .main {
+      .article-wrap {
+         .thumbnail {
+            //overflow: hidden;
+            margin-bottom: 0;
+            article {
+               position: relative;
+               //min-height: 320px;
+               //min-width: 320px;
+               background-size: contain;
+               background-repeat: no-repeat;
+               display: block;
+               header {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+               }
+            }
+         }
+      }
+   }
+}
 
 /* ==========================================================================
    Primary Content
    ========================================================================== */
 
-.main { }
+
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }

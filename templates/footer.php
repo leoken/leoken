@@ -1,5 +1,5 @@
 <footer class="content-info" role="contentinfo">
-  <div class="container">
+  <div class="container-fluid">
     <?php dynamic_sidebar('sidebar-footer'); ?>
     <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
   </div>
